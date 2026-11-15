@@ -10,8 +10,7 @@ reads the installed library, drives the console with a virtual controller,
 downloads games and homebrew to your Mac or PC, converts images between the
 formats PS3 tools use, and installs everything back onto the console.
 
-GODsend PS3 shares the GODsend family's "midnight console" design and the
-Rust + Tauri stack of [GODsend PSP](https://github.com/ghostyshell/godsend-psp).
+Built with a Rust engine, Tauri 2 and React.
 
 ![Library](docs/site-library.png)
 
@@ -31,8 +30,8 @@ Rust + Tauri stack of [GODsend PSP](https://github.com/ghostyshell/godsend-psp).
 | `godsend-ps3-0.1.0-x64-setup.exe` | [Download](https://gofile.io/d/V22ZdoUv) | [Mirror](https://file.kiwi/d7c094ba#gqBauaa0kdUCVMiuD5quBw) | 3.7 MiB |
 <!-- downloads:end -->
 
-GoFile is the primary host and file.kiwi is the encrypted backup, the same
-mirror pair as GODsend PSP and GODsend 360. Desktop builds are not notarized:
+GoFile is the primary host and file.kiwi is the encrypted backup. Desktop
+builds are not notarized:
 on first launch, right click the app, choose Open, then Open again, or run
 `xattr -dr com.apple.quarantine "/Applications/GODsend PS3.app"`.
 
