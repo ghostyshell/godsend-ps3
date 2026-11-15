@@ -1,0 +1,15 @@
+[package]
+name = "godsend-ps3-cli"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+authors.workspace = true
+repository.workspace = true
+description = "Headless CLI for GODsend PS3"
+
+[[bin]]
+name = "godsend-ps3"
+path = "src/main.rs"
+
+[dependencies]
+godsend-core = { path = "../core" }
