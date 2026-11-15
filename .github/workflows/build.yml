@@ -33,7 +33,7 @@ jobs:
         working-directory: app
         run: npx tauri build --bundles app --target ${{ matrix.target }}
       - name: Build CLI
-        run: cargo build --release -p godsend-ps3-cli --target ${{ matrix.target }}
+        run: cargo build --release -p godsend-ps3-cli -p godsend-ps3-mcp --target ${{ matrix.target }}
       - name: Ad-hoc sign the app bundle
         run: |
           # Apple Silicon refuses bundles without a valid bundle signature
