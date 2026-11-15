@@ -108,6 +108,39 @@
     <img src="site-updates.png" alt="Official update lookup by title id">
   </section>
 
+  <h2 id="download">Download</h2>
+  <p class="sub">Desktop builds for macOS, Windows and Linux. The CLI archive also carries the MCP server.</p>
+  <div class="downloads">
+    <table id="downloads">
+      <thead><tr><th>Build</th><th>GoFile</th><th>file.kiwi</th><th>Size</th></tr></thead>
+      <tbody><tr><td colspan="4" class="muted">Loading the latest builds...</td></tr></tbody>
+    </table>
+  </div>
+  <p class="sub">GoFile is the primary host, file.kiwi the encrypted backup. Builds are not notarized: right click the app, Open, then Open again on first launch.</p>
+  <script>
+    fetch("downloads.json")
+      .then((r) => r.json())
+      .then((data) => {
+        const body = document.querySelector("#downloads tbody");
+        body.innerHTML = "";
+        for (const file of data.artifacts) {
+          const tr = document.createElement("tr");
+          const link = (url, label) =>
+            url ? `<a href="${url}">${label}</a>` : '<span class="muted">pending</span>';
+          tr.innerHTML =
+            `<td><code>${file.name}</code><br><span class="muted">${file.label}</span></td>` +
+            `<td>${link(file.gofile, "Download")}</td>` +
+            `<td>${link(file.kiwi, "Mirror")}</td>` +
+            `<td class="mono">${file.size || ""}</td>`;
+          body.appendChild(tr);
+        }
+      })
+      .catch(() => {
+        document.querySelector("#downloads tbody").innerHTML =
+          '<tr><td colspan="4" class="muted">Builds are published from the GitHub release page.</td></tr>';
+      });
+  </script>
+
   <h2 id="features">Everything in one window</h2>
   <p class="sub">The parts of managing a CFW PS3 that usually need three tools and a file manager.</p>
   <div class="grid">
@@ -162,6 +195,7 @@ npm --prefix app run tauri build</pre>
     <span>GODsend PS3</span>
     <span class="grow"></span>
     <span>MIT licensed</span>
+    <span><a href="https://discord.gg/d3sFnrgpJn">Discord</a> - <a href="https://ko-fi.com/ghosty99">Ko-fi</a> - ETH 0xbBef115aD853236a350EaF04777a2AdB2e7c0317</span>
     <span>Not affiliated with Sony</span>
   </footer>
 </div>
