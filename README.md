@@ -17,21 +17,21 @@ Built with a Rust engine, Tauri 2 and React.
 ## Download
 
 <!-- downloads:start -->
-| Build | GoFile (primary) | file.kiwi (backup) | Size |
-| --- | --- | --- | --- |
-| `godsend-ps3-0.1.0-linux-x64.AppImage` | [Download](https://gofile.io/d/avr9pCIv) | [Mirror](https://file.kiwi/09ed0d3f#fWtsvlmkF1w2wdJtWqlHrA) | 80.2 MiB |
-| `godsend-ps3-cli-0.1.0-linux-x64.tar.gz` | [Download](https://gofile.io/d/uNZPVJNF) | [Mirror](https://file.kiwi/c1341566#1a7e0DuuQyh3C54tcr2XKw) | 4.2 MiB |
-| `godsend-ps3-cli-0.1.0-macos-arm64.tar.gz` | [Download](https://gofile.io/d/ReqBlOdf) | [Mirror](https://file.kiwi/04473f61#AQO-Wxy3iNLKqPkxNrMacA) | 3.7 MiB |
-| `godsend-ps3-cli-0.1.0-macos-x64.tar.gz` | [Download](https://gofile.io/d/aMzDnGNt) | [Mirror](https://file.kiwi/f6423f12#mZ7zUga0zbgu7dpAUHspBg) | 4.0 MiB |
-| `godsend-ps3-cli-0.1.0-windows-x64.zip` | [Download](https://gofile.io/d/0Uw4wns6) | [Mirror](https://file.kiwi/7c44c010#i3LbxwHc5XgK0DSVGCPsyg) | 4.2 MiB |
-| `godsend-ps3-0.1.0-linux-x64.deb` | [Download](https://gofile.io/d/tSimFavZ) | [Mirror](https://file.kiwi/e9cfba07#6War5IKXQeT6g9ae6TLpnw) | 5.4 MiB |
-| `godsend-ps3-0.1.0-arm64.dmg` | [Download](https://gofile.io/d/qRoZ0RSC) | [Mirror](https://file.kiwi/28731cea#9huC_VJGno0FxGTmaK6arQ) | 5.4 MiB |
-| `godsend-ps3-0.1.0-x64.dmg` | [Download](https://gofile.io/d/ecH9vHPu) | [Mirror](https://file.kiwi/8d3e35e5#o0x9IzH6T58Fgue0wKVEKQ) | 5.9 MiB |
-| `godsend-ps3-0.1.0-x64-setup.exe` | [Download](https://gofile.io/d/V22ZdoUv) | [Mirror](https://file.kiwi/d7c094ba#gqBauaa0kdUCVMiuD5quBw) | 3.7 MiB |
+| Build | Download | Size |
+| --- | --- | --- |
+| `godsend-ps3-0.1.0-arm64.dmg` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-arm64.dmg) | 5.4 MiB |
+| `godsend-ps3-0.1.0-x64.dmg` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-x64.dmg) | 5.9 MiB |
+| `godsend-ps3-0.1.0-x64-setup.exe` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-x64-setup.exe) | 3.7 MiB |
+| `godsend-ps3-0.1.0-linux-x64.AppImage` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-linux-x64.AppImage) | 80.2 MiB |
+| `godsend-ps3-0.1.0-linux-x64.deb` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-linux-x64.deb) | 5.4 MiB |
+| `godsend-ps3-cli-0.1.0-linux-x64.tar.gz` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-linux-x64.tar.gz) | 4.2 MiB |
+| `godsend-ps3-cli-0.1.0-macos-arm64.tar.gz` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-macos-arm64.tar.gz) | 3.7 MiB |
+| `godsend-ps3-cli-0.1.0-macos-x64.tar.gz` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-macos-x64.tar.gz) | 4.0 MiB |
+| `godsend-ps3-cli-0.1.0-windows-x64.zip` | [Download](https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-windows-x64.zip) | 4.2 MiB |
 <!-- downloads:end -->
 
-GoFile is the primary host and file.kiwi is the encrypted backup. Desktop
-builds are not notarized:
+Builds are hosted on Cloudflare R2, so a link stays valid until the next
+version. Desktop builds are not notarized:
 on first launch, right click the app, choose Open, then Open again, or run
 `xattr -dr com.apple.quarantine "/Applications/GODsend PS3.app"`.
 

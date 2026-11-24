@@ -1,78 +1,69 @@
 {
   "version": "0.1.0",
-  "updated": "2026-11-15",
+  "updated": "2026-11-24",
   "artifacts": [
-    {
-      "name": "godsend-ps3-0.1.0-linux-x64.AppImage",
-      "label": "Linux (x86_64, AppImage)",
-      "gofile": "https://gofile.io/d/avr9pCIv",
-      "kiwi": "https://file.kiwi/09ed0d3f#fWtsvlmkF1w2wdJtWqlHrA",
-      "size": "80.2 MiB",
-      "sha256": "d7de0bb279c40ce81b32da9960e84edfbab0161e3744f8e66d31c5eb7cdab810"
-    },
-    {
-      "name": "godsend-ps3-cli-0.1.0-linux-x64.tar.gz",
-      "label": "Linux (x86_64, CLI + MCP)",
-      "gofile": "https://gofile.io/d/uNZPVJNF",
-      "kiwi": "https://file.kiwi/c1341566#1a7e0DuuQyh3C54tcr2XKw",
-      "size": "4.2 MiB",
-      "sha256": "22cd6b1a08cec55462b8ef66f26b4a0b41635925c9842700231746e9ef7ab5ed"
-    },
-    {
-      "name": "godsend-ps3-cli-0.1.0-macos-arm64.tar.gz",
-      "label": "macOS (Apple Silicon, CLI + MCP)",
-      "gofile": "https://gofile.io/d/ReqBlOdf",
-      "kiwi": "https://file.kiwi/04473f61#AQO-Wxy3iNLKqPkxNrMacA",
-      "size": "3.7 MiB",
-      "sha256": "7cc72f2abfd731e967fde7282ba67ac69b7430ccfc2b443fac7d9e5a705187c3"
-    },
-    {
-      "name": "godsend-ps3-cli-0.1.0-macos-x64.tar.gz",
-      "label": "macOS (Intel, CLI + MCP)",
-      "gofile": "https://gofile.io/d/aMzDnGNt",
-      "kiwi": "https://file.kiwi/f6423f12#mZ7zUga0zbgu7dpAUHspBg",
-      "size": "4.0 MiB",
-      "sha256": "ac36e579b5445518357c898698fb9e3f5b4df6a11319db08d2844a483c5dab5f"
-    },
-    {
-      "name": "godsend-ps3-cli-0.1.0-windows-x64.zip",
-      "label": "Windows (x86_64, CLI + MCP)",
-      "gofile": "https://gofile.io/d/0Uw4wns6",
-      "kiwi": "https://file.kiwi/7c44c010#i3LbxwHc5XgK0DSVGCPsyg",
-      "size": "4.2 MiB",
-      "sha256": "c4df4c65d370daf60b7e9d2167f20b3e57e8b4e472f50fd5ed2c0ba85be4d7f1"
-    },
-    {
-      "name": "godsend-ps3-0.1.0-linux-x64.deb",
-      "label": "Linux (x86_64, deb)",
-      "gofile": "https://gofile.io/d/tSimFavZ",
-      "kiwi": "https://file.kiwi/e9cfba07#6War5IKXQeT6g9ae6TLpnw",
-      "size": "5.4 MiB",
-      "sha256": "1d962f431bdcac4b4eb9260aabe62aa8555dbfae0706fb7a4ee28c787d139817"
-    },
     {
       "name": "godsend-ps3-0.1.0-arm64.dmg",
       "label": "macOS (Apple Silicon)",
-      "gofile": "https://gofile.io/d/qRoZ0RSC",
-      "kiwi": "https://file.kiwi/28731cea#9huC_VJGno0FxGTmaK6arQ",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-arm64.dmg",
       "size": "5.4 MiB",
-      "sha256": "600c7dd4997586a0eab3c606a9e0c76f707437b355448881639c9ada4215b7b5"
+      "sha256": "985b4c12dfe91ad3c36a98a460e9f42896dc5fb186e170ff5f07b23f9dd966f1"
     },
     {
       "name": "godsend-ps3-0.1.0-x64.dmg",
       "label": "macOS (Intel)",
-      "gofile": "https://gofile.io/d/ecH9vHPu",
-      "kiwi": "https://file.kiwi/8d3e35e5#o0x9IzH6T58Fgue0wKVEKQ",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-x64.dmg",
       "size": "5.9 MiB",
-      "sha256": "141c463e8e8059bb47168b570cdd3e207cc0baa56509a00a9588a532a168aab5"
+      "sha256": "995816cfafadbc3063015ded25b9b3512dd81a10389e34666cc02695b7945fa2"
     },
     {
       "name": "godsend-ps3-0.1.0-x64-setup.exe",
       "label": "Windows (x86_64, installer)",
-      "gofile": "https://gofile.io/d/V22ZdoUv",
-      "kiwi": "https://file.kiwi/d7c094ba#gqBauaa0kdUCVMiuD5quBw",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-x64-setup.exe",
       "size": "3.7 MiB",
-      "sha256": "0bce112d15c880c8a69ed297c95121d1ea9f87c0cde2ec9d32c80e068140782e"
+      "sha256": "e5e3c9f9bc61f825748c95b3512f2b970e908f64872502fca03e88c32d8c2fd4"
+    },
+    {
+      "name": "godsend-ps3-0.1.0-linux-x64.AppImage",
+      "label": "Linux (x86_64, AppImage)",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-linux-x64.AppImage",
+      "size": "80.2 MiB",
+      "sha256": "6bfae718291169b86cbfe4aee0101be78ab74ca100cd3e6c24904fb8ed3e5038"
+    },
+    {
+      "name": "godsend-ps3-0.1.0-linux-x64.deb",
+      "label": "Linux (x86_64, deb)",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-0.1.0-linux-x64.deb",
+      "size": "5.4 MiB",
+      "sha256": "dc82268f8ebb6af6c761ea70b6195902b0547f0fa43fb219ad79de10a04d60ed"
+    },
+    {
+      "name": "godsend-ps3-cli-0.1.0-linux-x64.tar.gz",
+      "label": "Linux (x86_64, CLI + MCP)",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-linux-x64.tar.gz",
+      "size": "4.2 MiB",
+      "sha256": "df4fadeb983c17c76f406b602cbda599a192c8f7bc1e0a5dec7057cccc1a20a7"
+    },
+    {
+      "name": "godsend-ps3-cli-0.1.0-macos-arm64.tar.gz",
+      "label": "macOS (Apple Silicon, CLI + MCP)",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-macos-arm64.tar.gz",
+      "size": "3.7 MiB",
+      "sha256": "6d1b03f54a5ce9645abf49642ce4da38a0f4025436d46e4b20cbff99e24e3034"
+    },
+    {
+      "name": "godsend-ps3-cli-0.1.0-macos-x64.tar.gz",
+      "label": "macOS (Intel, CLI + MCP)",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-macos-x64.tar.gz",
+      "size": "4.0 MiB",
+      "sha256": "9768d52b33ee1a9621752af9f8e8f6598d1699350836a9878c3e2e68f44226f5"
+    },
+    {
+      "name": "godsend-ps3-cli-0.1.0-windows-x64.zip",
+      "label": "Windows (x86_64, CLI + MCP)",
+      "url": "https://covers.debrid.in/godsend-ps3/releases/0.1.0/godsend-ps3-cli-0.1.0-windows-x64.zip",
+      "size": "4.2 MiB",
+      "sha256": "02ada65bf32028ef3985ff390569a8860e256b39c6d9fcc145ac72e2f2a98a81"
     }
   ]
 }
