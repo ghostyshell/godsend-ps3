@@ -112,11 +112,11 @@
   <p class="sub">Desktop builds for macOS, Windows and Linux. The CLI archive also carries the MCP server.</p>
   <div class="downloads">
     <table id="downloads">
-      <thead><tr><th>Build</th><th>GoFile</th><th>file.kiwi</th><th>Size</th></tr></thead>
-      <tbody><tr><td colspan="4" class="muted">Loading the latest builds...</td></tr></tbody>
+      <thead><tr><th>Build</th><th>Download</th><th>Size</th></tr></thead>
+      <tbody><tr><td colspan="3" class="muted">Loading the latest builds...</td></tr></tbody>
     </table>
   </div>
-  <p class="sub">GoFile is the primary host, file.kiwi the encrypted backup. Builds are not notarized: right click the app, Open, then Open again on first launch.</p>
+  <p class="sub">Builds are hosted on Cloudflare R2. Builds are not notarized: right click the app, Open, then Open again on first launch.</p>
   <script>
     fetch("downloads.json")
       .then((r) => r.json())
@@ -129,15 +129,14 @@
             url ? `<a href="${url}">${label}</a>` : '<span class="muted">pending</span>';
           tr.innerHTML =
             `<td><code>${file.name}</code><br><span class="muted">${file.label}</span></td>` +
-            `<td>${link(file.gofile, "Download")}</td>` +
-            `<td>${link(file.kiwi, "Mirror")}</td>` +
+            `<td>${link(file.url, "Download")}</td>` +
             `<td class="mono">${file.size || ""}</td>`;
           body.appendChild(tr);
         }
       })
       .catch(() => {
         document.querySelector("#downloads tbody").innerHTML =
-          '<tr><td colspan="4" class="muted">Builds are published from the GitHub release page.</td></tr>';
+          '<tr><td colspan="3" class="muted">Builds are published from the GitHub release page.</td></tr>';
       });
   </script>
 
