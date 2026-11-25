@@ -1461,7 +1461,7 @@ dependencies = [
 
 [[package]]
 name = "godsend-core"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "aes",
  "cbc",
@@ -1478,7 +1478,7 @@ dependencies = [
 
 [[package]]
 name = "godsend-ps3-app"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "base64 0.22.1",
  "godsend-core",
@@ -1496,14 +1496,14 @@ dependencies = [
 
 [[package]]
 name = "godsend-ps3-cli"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "godsend-core",
 ]
 
 [[package]]
 name = "godsend-ps3-mcp"
-version = "0.1.0"
+version = "0.1.1"
 dependencies = [
  "godsend-core",
  "serde",
