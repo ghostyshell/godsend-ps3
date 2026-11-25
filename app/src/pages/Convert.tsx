@@ -163,6 +163,7 @@ export default function Convert({ snap, toast, reload }: PageProps) {
                 <input
                   type="text"
                   className="mono"
+                  aria-label="Redump disc key"
                   placeholder="32 hex characters"
                   value={key}
                   onChange={(e) => setKey(e.target.value)}

@@ -90,6 +90,7 @@ export default function Library({ snap, toast, refreshKey, reload, go }: PagePro
           <input
             className="search"
             type="text"
+            aria-label="Filter by title"
             placeholder="Filter by title"
             value={query}
             onChange={(e) => setQuery(e.target.value)}

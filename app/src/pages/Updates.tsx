@@ -33,6 +33,7 @@ export default function Updates({ toast, reload }: PageProps) {
           <input
             type="text"
             className="search mono"
+            aria-label="Title ID"
             placeholder="BLES01234"
             value={titleId}
             onChange={(e) => setTitleId(e.target.value.toUpperCase())}
